@@ -1,0 +1,17 @@
+main dir:
+D:\MyProjects\HTML_Modifier\
+
+header update:
+
+files:
+TestFile.html
+
+insert after line:
+4
+
+lines to insert:
+<meta name="keywords" content="test html modifier">
+
+
+end
+
