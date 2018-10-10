@@ -5,6 +5,7 @@ class HeaderUpdate :
         self.linesToInsert = linesToInsert
 
 def parseHeadConfigurationFile():
+    print("Parsing Configuration.txt file.")
     file = open("Configuration.txt", "r")
     lines = file.readlines()
     i = 0
@@ -22,6 +23,7 @@ def parseHeadConfigurationFile():
 
         if lines[i].startswith("main dir"):
             directory = lines[i+1].strip()
+            print("Main directory path set to: " + directory)
             i += 1
 
         if lines[i].startswith("header"):  #adding headers
@@ -57,5 +59,5 @@ def parseHeadConfigurationFile():
         i += 1
 
     file.close()
-
+    print("Parsing Configuration.txt file complete.")
     return headerUpdates
