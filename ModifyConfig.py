@@ -59,5 +59,5 @@ def parseHeadConfigurationFile():
         i += 1
 
     file.close()
-    print("Parsing Configuration.txt file complete.")
+    print("Parsing Configuration.txt file complete.\n")
     return headerUpdates

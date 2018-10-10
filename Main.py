@@ -17,7 +17,7 @@ def modifyFileHeader(headerUpdate):
     print("Adding " + str(len(lines) - before) + " line(s).")
     file = open(headerUpdate.filePath, "w")
     file.writelines(lines)
-    print("Modifying file finished.")
+    print("Modifying file finished.\n")
     file.close()
 
 

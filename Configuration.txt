@@ -1,16 +1,32 @@
 main dir:
-D:\MyProjects\HTML_Modifier\
+D:\MyProjects\HTML_Modifier\TestFiles\
 
 header update:
 
 files:
-TestFile.html
+Test1.html
+Test2.html
 
 insert after line:
-4
+7
 
 lines to insert:
-<meta name="keywords" content="test html modifier">
+<h1>Hello, world!</h1>
+
+
+files:
+Test1.html
+Test2.html
+
+insert after line:
+5
+
+lines to insert:
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
 
 
 end
