@@ -1,7 +1,7 @@
-# HTML_Modifier
-Modify header and footer of all html documents in your project.
+# HTML_Modifier for static websites (no PHP)
+Modify header of all html documents in your project.
 
-I was working on a personal website and I wanted all pages to have consistent headers and footers (top and bottom of the page). However, this was hard to maintain withouth using a pre-defined templated (plus there could be some copyright issues etc).
+I was working on a personal website and I wanted all pages to have consistent headers (top of the page). However, this was hard to maintain withouth using a pre-defined templates (plus there could be some copyright issues etc) or without using PHP.
 So I decided to build this mini program which can edit the files for you, so you don't need to copy and paste your code in every single file - it's easy with three files but with 8 files I already got tired of it :D
 
 How to use it:
